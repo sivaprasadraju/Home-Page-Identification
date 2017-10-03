@@ -26,6 +26,8 @@ bash run.sh
 
 1) Reading the input image from the same directory.
 
+2) Croping the input image and taking the Region of Interest. Because If there is any update in website this area is fixed.
+
 2) Converting input image from RGB to HSV.
 
 3) Finding the value of hue in the input image.
@@ -38,4 +40,4 @@ bash run.sh
 
 ###Solution Explanation
 
-Our constraint is do not use OCR. So, I thought that based on the RGB values we can differentiate the type of webpage. So, I have converted input image from RGB to HSV. Then I have found the value of Hue in the input image. Then I have fixed thresholding points to each webpage.
+Our constraint is do not use OCR. So, I thought that based on the RGB values we can differentiate the type of webpage. So, First I have taken the Region of Interest then I have converted input image from RGB to HSV. Then I have found the value of Hue in the input image. Then I have fixed thresholding points to each webpage.
