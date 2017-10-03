@@ -12,9 +12,9 @@ else if(hue_count > 102000 && hue_count < 103000)
         fprintf('This is www.facebook.com page');
     else if(hue_count > 1500 && hue_count < 5000)
         fprintf('This is www.google.com page');
-        else if(hue_count > 16000 && hue_count < 17500)
+        else if(hue_count > 83000 && hue_count < 87000)
         fprintf('This is www.quora.com page');
-            else if(hue_count > 80000 && hue_count < 85000)
+            else if(hue_count > 80000 && hue_count < 82000)
         fprintf('This is www.reddit.com page');
             else
                 fprintf('siva');
