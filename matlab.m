@@ -15,9 +15,10 @@ else if(hue_count > 950000 && hue_count < 970000)
         fprintf('This is www.quora.com page');
             else if(hue_count > 450000 && hue_count < 470000)
         fprintf('This is www.reddit.com page');
+            else
+                fprintf('could not detect website');
                 end
             end
         end
     end
 end
-

@@ -2,7 +2,7 @@ import webbrowser
 import pyscreenshot as ImageGrab
 import time
 
-url = 'http://www.quora.com'
+url = 'http://www.facebook.com'
 
 webpage = webbrowser.open_new(url)
 
