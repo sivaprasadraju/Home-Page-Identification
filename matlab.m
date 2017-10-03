@@ -10,7 +10,7 @@ if(hue_count >= 0 && hue_count < 1000)
     fprintf('This is www.wikipedia.org page');
 else if(hue_count > 102000 && hue_count < 103000)
         fprintf('This is www.facebook.com page');
-    else if(hue_count > 4000 && hue_count < 5000)
+    else if(hue_count > 1500 && hue_count < 5000)
         fprintf('This is www.google.com page');
         else if(hue_count > 16000 && hue_count < 17500)
         fprintf('This is www.quora.com page');
