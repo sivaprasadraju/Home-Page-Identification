@@ -35,3 +35,7 @@ bash run.sh
 5) By checking the hue_count value for each webpage, I have kept threshold values for each webpage differently.
 
 6) Based on the hue value, I have found the type of webpage.
+
+###Solution Explanation
+
+Our constraint is do not use OCR. So, I thought that based on the RGB values we can differentiate the type of webpage. So, I have converted input image from RGB to HSV. Then I have found the value of Hue in the input image. Then I have fixed thresholding points to each webpage.
